@@ -1,6 +1,19 @@
-__pycache__/
-*.pyc
-.venv/
+# Entorno / notebooks
 .env
 .ipynb_checkpoints/
-data/*.csv
+__pycache__/
+
+# Datos pesados o sensibles
+data/raw/
+*.csv
+*.xlsx
+
+# Permitir los procesados que SÍ queremos subir
+!data/processed/
+!data/processed/**/*.csv
+
+# Office locks / sistema
+~$*
+~lock.*
+.DS_Store
+Thumbs.db
