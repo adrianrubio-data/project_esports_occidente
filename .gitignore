@@ -17,3 +17,6 @@ data/raw/
 ~lock.*
 .DS_Store
 Thumbs.db
+
+
+*.ipynb linguist-detectable=true
